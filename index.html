@@ -3,6 +3,8 @@
 <head>
 <title>Front end</title>
 <meta charset='utf-8'/>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet'/>
 <link rel='stylesheet' href='normalize.css' />
 <link rel='stylesheet' href='main.css'/>
 </head>
@@ -11,24 +13,165 @@
 <div class='container'><p class='logo'> front end news</p></div></header>
 <main class='content'>
 <div class='container'>
-<ol class='news'>
-<li class='news-item'>
-<a class='news-link' href='news-link'>Getting ready for http/2</a>
-</li>
-
-<li class='news-item'>
-<a class='news-link' href='#'>Managing typography on large apps</a>
-</li>
-
-<li class='news-item'>
-<a class='news-link' href='#'>Estimating a front end web dev job</a>
-</li>
-
-<li class='news-item'>
-<a class='news-link' href='#'>The one css feature i really want</a>
-</li>
-</ol>
+		<header>
+			<h1>Lastest News</h1>
+			<p>The latest links in the front-end community.<a class='js-add-link' href='#'>Add a link now!</a></p>
+			<form class='form js-form'>
+				<label class='form-label' for='form-link-input'>Add a story</label>
+				<input class='form-input' type='text' id='form-link-input'/>
+			</form>
+		</header>
+		<div class='modal js-modal'>
+			<div class='modal-media'>
+				<img src='http://cliparts.co/cliparts/BTg/KqK/BTgKqKe5c.png'>
+				<h3 class='modal-media-title'> Sticker</h3>
+			</div>
+			<div class='modal-content'>
+					<h3>About me</h3>
+					<p>I'm a sticker in google image</p>
+					<ol class='news'>
+						<li class='news-item'>
+							<a class='news-link' href='#'>Frontend design</a>
+						</li>
+						<li class='news-item'>
+							<a class='news-link' href='#'>Javascript modules: A beginer guide</a>
+						</li>
+					</ol>
+			</div>
+		</div>
+		<div class='modal-overlay js-modal-overlay'></div>
+	<ol class='news'>
+		<li class='news-item'>
+			<a class='news-link' href='news-link'>Getting ready for http/2</a>
+			<ul class='news-meta'>
+				<li>
+					<em> posted by:</em>
+					<a class='js-show-modal' href='#'>Dan Denney</a>
+				</li>
+				<li>
+					<a href='#'>2 comments</a>
+				</li>
+				<li>
+					<a href='#'>Linked</a>
+				</li>
+			</ul>
+		</li>
+		
+		<li class='news-item'>
+		<a class='news-link' href='#'>Managing typography on large apps</a>
+		<ul class='news-meta'>
+				<li>
+					<em> posted by:</em>
+					<a class='js-show-modal' href='#'>Dan Denney</a>
+				</li>
+				<li>
+					<a href='#'>2 comments</a>
+				</li>
+				<li>
+					<a class='js-like' href='#'>Linked</a>
+				</li>
+			</ul>
+		</li>
+		
+		<li class='news-item'>
+		<a class='news-link' href='#'>Estimating a front end web dev job</a>
+		<ul class='news-meta'>
+				<li>
+					<em> posted by:</em>
+					<a class='js-show-modal' href='#'>Dan Denney</a>
+				</li>
+				<li>
+					<a href='#'>2 comments</a>
+				</li>
+				<li>
+					<a class='js-like' href='#'>Linked</a>
+				</li>
+			</ul>
+		</li>
+		
+		<li class='news-item'>
+		<a class='news-link' href='#'>The one css feature i really want</a>
+		<ul class='news-meta'>
+				<li>
+					<em> posted by:</em>
+					<a class='js-show-modal' href='#'>Dan Denney</a>
+				</li>
+				<li>
+					<a href='#'>2 comments</a>
+				</li>
+				<li>
+					<a class='js-like' href='#'>Linked</a>
+				</li>
+			</ul>
+		</li>
+		
+		<li class='news-item'>
+		<a class='news-link' href='#'>The one css feature i really want</a>
+		<ul class='news-meta'>
+				<li>
+					<em> posted by:</em>
+					<a class='js-show-modal' href='#'>Dan Denney</a>
+				</li>
+				<li>
+					<a href='#'>2 comments</a>
+				</li>
+				<li>
+					<a class='js-like' href='#'>Linked</a>
+				</li>
+			</ul>
+		</li>
+		
+		<li class='news-item'>
+		<a class='news-link' href='#'>The one css feature i really want</a>
+		<ul class='news-meta'>
+				<li>
+					<em> posted by:</em>
+					<a class='js-show-modal' href='#'>Dan Denney</a>
+				</li>
+				<li>
+					<a href='#'>2 comments</a>
+				</li>
+				<li>
+					<a class='js-like' href='#'>Linked</a>
+				</li>
+			</ul>
+		</li>
+		
+		<li class='news-item'>
+		<a class='news-link' href='#'>The one css feature i really want</a>
+		<ul class='news-meta'>
+				<li>
+					<em> posted by:</em>
+					<a class='js-show-modal' href='#'>Dan Denney</a>
+				</li>
+				<li>
+					<a href='#'>2 comments</a>
+				</li>
+				<li>
+					<a class='js-like' href='#'>Linked</a>
+				</li>
+			</ul>
+		</li>
+		
+		<li class='news-item'>
+		<a class='news-link' href='#'>The one css feature i really want</a>
+		<ul class='news-meta'>
+				<li>
+					<em> posted by:</em>
+					<a class='js-show-modal' href='#'>Dan Denney</a>
+				</li>
+				<li>
+					<a href='#'>2 comments</a>
+				</li>
+				<li>
+					<a class='js-like' href='#'>Linked</a>
+				</li>
+			</ul>
+		</li>
+	</ol>
 <div class='container'>
 </main>
+<script src='https://code.jquery.com/jquery-2.2.2.min.js'></script>
+<script src='app.js'></script>
 </body>
 </html>
